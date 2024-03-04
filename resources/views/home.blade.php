@@ -6,6 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Laravel 10 - REACT 18</title>
 @stop
+@section('content_top_nav_right')
+    
+	<div id="TopNav"></div>
+@stop
 @section('content')
 	<div id="codeareact"></div>
 @stop
