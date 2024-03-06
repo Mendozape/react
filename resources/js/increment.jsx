@@ -11,7 +11,13 @@ const IncrementButton = () => {
         setCount(count + 1); // Update the 'count' state by incrementing its current value
     };
     const decrement = () => {
-        setCount(count - 1); // Update the 'count' state by incrementing its current value
+        if(count==0){
+            setCount(0); // Update the 'count' state by incrementing its current value
+        }else{
+            setCount(count - 1); 
+
+        }
+        
     };
 
     return (
@@ -19,10 +25,10 @@ const IncrementButton = () => {
             <h1>Increment and decrement Button</h1>
             <p>Count: {count}</p>
             {/* Button that calls the increment function when clicked */}
-            <button onClick={increment}>Increment</button>
+            <button onClick={increment}>+</button>
 
             {/* Button that calls the increment function when clicked */}
-            <button onClick={decrement}>Decrement</button>
+            <button onClick={decrement}>-</button>
         </div>
     );
 };
