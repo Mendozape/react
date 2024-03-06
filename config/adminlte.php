@@ -369,9 +369,9 @@ return [
         ],
         ['header' => 'labels'],
         [
-            'text'       => 'important',
+            'text'       => 'React Increment button',
             'icon_color' => 'red',
-            'url'        => '#',
+            'url'        => 'increment/',
         ],
         [
             'text'       => 'warning',

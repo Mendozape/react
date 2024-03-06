@@ -4,13 +4,13 @@
 	<div id="header"></div>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Laravel 10 - REACT 18</title>
+	<title>Laravel 10 - REACT 18 INCREMENT</title>
 @stop
 @section('content_top_nav_right')
 	<div id="TopNavDiv"></div>
 @stop
 @section('content')
-	<div id="content"></div>
+	<div id="increment"></div>
 @stop
 @section('css')
     <link rel="stylesheet" href="/css/admin_custom.css">
@@ -19,4 +19,3 @@
 	@viteReactRefresh
 	@vite('resources/js/app.js')
 @stop
-
