@@ -1,9 +1,9 @@
 @extends('adminlte::page')
 @section('title', 'Dashboard')
 @section('content_header')
-	<div id="header"></div>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
 	<title>Laravel 10 - REACT 18 INCREMENT</title>
 @stop
 @section('content_top_nav_right')
@@ -13,9 +13,10 @@
 	<div id="increment"></div>
 @stop
 @section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
+    @vite('resources/sass/app.scss')
 @stop
 @section('js')
 	@viteReactRefresh
 	@vite('resources/js/app.js')
+    
 @stop
