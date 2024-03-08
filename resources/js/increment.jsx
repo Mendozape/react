@@ -8,7 +8,7 @@ const IncrementButton = () => {
 
     // Function to handle incrementing the count
     const increment = () => {
-        (count >= 10) ? setCount(10) : setCount(count + 1)
+        (count >= 10) ? setCount(10) : setCount(count + 1);
     };
     const decrement = () => {
         (count <= 0) ? setCount(0) : setCount(count - 1)
@@ -17,13 +17,14 @@ const IncrementButton = () => {
     return (
         <div className="btn-group">
             <button className="increment-btn" onClick={increment}>
-                <span className='material-symbols-outlined'>add</span>
+                <span className="material-icons">add</span>
             </button>
             <p>{count}</p>
             <button className="decrement-btn" onClick={decrement}>
-                <span className='material-symbols-outlined'>remove</span>
+                <span className="material-icons">remove</span>
             </button>
             
+            <span className="material-icons">remove</span>
                 
             
         </div>
