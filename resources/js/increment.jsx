@@ -17,20 +17,16 @@ const IncrementButton = () => {
     };
 
     return (
-        <div class="container ">
-           
-                
-                    <div className="btn-group  text-align: center">
-                        <button className="increment-btn" onClick={increment}>
-                            <span class="material-symbols-outlined">add</span>
-                        </button>
-                        <p >{count}</p>
-                        <button className="decrement-btn" onClick={decrement}>
-                            <span class="material-symbols-outlined">remove</span>
-                        </button>
-                    </div>
-               
-            
+        <div class="container border border-1 col-lg-12  " >
+            <div className="position btn-group " >
+                <button  onClick={increment}>
+                    <span class="material-symbols-outlined">add</span>
+                </button>
+                <pp >{count}</pp>
+                <button  onClick={decrement}>
+                    <span class="material-symbols-outlined">remove</span>
+                </button>
+            </div>
         </div>
     );
 };
