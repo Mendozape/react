@@ -10,4 +10,8 @@ class ExamplesController extends Controller
     {
         return view('react/increment');
     }
+    public function videos()
+    {
+        return view('react/videosx');
+    }
 }

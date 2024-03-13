@@ -22,3 +22,4 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 //Route::get('/react/increment', 'ExamplesController@increment');
 Route::get('/increment', [ExamplesController::class,'increment']);
+Route::get('/videos', [ExamplesController::class,'videos']);
