@@ -374,9 +374,9 @@ return [
             'url'        => 'increment/',
         ],
         [
-            'text'       => 'warning',
+            'text'       => 'Videos',
             'icon_color' => 'yellow',
-            'url'        => '#',
+            'url'        => 'videos/',
         ],
         [
             'text'       => 'information',

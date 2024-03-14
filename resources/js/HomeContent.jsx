@@ -11,13 +11,13 @@ const UserCount = () => {
 				setUserCount(response.data.count);
 			})
 			.catch(error => {
-				console.error('Error fetching user count: ', error);
+				console.error('Error fetching user countx: ', error);
 			});
 	}, []);
 	return (
 		<>
-			<section classname="section" align="center">
-				<div classname="section-header" align="center">
+			<section className="section" align="center">
+				<div className="section-header" align="center">
 					<h1>Dashboard</h1>
 				</div>
 				<div className="section-body">

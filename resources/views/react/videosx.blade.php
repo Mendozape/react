@@ -1,15 +1,15 @@
 @extends('adminlte::page')
-@section('title', 'Increment')
+@section('title', 'Videos')
 @section('content_header')
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Laravel 10 - REACT 18 INCREMENT</title>
+	<title>Videos</title>
 @stop
 @section('content_top_nav_right')
 	<div id="TopNavDiv"></div>
 @stop
 @section('content')
-	<div className="container" id="increment"></div>
+	<div className="container" id="videosx"></div>
 @stop
 @section('css')
 @stop

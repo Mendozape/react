@@ -1,6 +1,8 @@
 import { createRoot } from 'react-dom/client'
 import React, { useState } from 'react';
-
+//import 'material-icons/iconfont/material-icons.css';
+import 'material-symbols';
+import '../css/increment.css'
 
 const IncrementButton = () => {
     // Define a state variable 'count' with initial value 0
@@ -15,18 +17,16 @@ const IncrementButton = () => {
     };
 
     return (
-        <div className="btn-group">
-            <button className="increment-btn" onClick={increment}>
-                <span className="material-icons">add</span>
-            </button>
-            <p>{count}</p>
-            <button className="decrement-btn" onClick={decrement}>
-                <span className="material-icons">remove</span>
-            </button>
-            
-            <span className="material-icons">remove</span>
-                
-            
+        <div class="container border border-1 col-lg-12  " >
+            <div className="position btn-group " >
+                <button  onClick={increment}>
+                    <span class="material-symbols-outlined">add</span>
+                </button>
+                <pp >{count}</pp>
+                <button  onClick={decrement}>
+                    <span class="material-symbols-outlined">remove</span>
+                </button>
+            </div>
         </div>
     );
 };
