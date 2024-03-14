@@ -9,12 +9,12 @@
 	<div id="TopNavDiv"></div>
 @stop
 @section('content')
-	<div className="container" id="videosx"></div>
+	<div className="container" id="video"></div>
+	
 @stop
 @section('css')
 @stop
 @section('js')
 	@viteReactRefresh
 	@vite('resources/js/app.js')
-    
 @stop

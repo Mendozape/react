@@ -12,6 +12,6 @@ class ExamplesController extends Controller
     }
     public function videos()
     {
-        return view('react/videosx');
+        return view('react/videos');
     }
 }

@@ -1,8 +1,8 @@
-import { createRoot } from 'react-dom/client'
+import { createRoot } from 'react-dom/client';
 import React, { useState } from 'react';
 //import 'material-icons/iconfont/material-icons.css';
 import 'material-symbols';
-import '../css/increment.css'
+import '../css/increment.css';
 
 const IncrementButton = () => {
     // Define a state variable 'count' with initial value 0
@@ -13,7 +13,7 @@ const IncrementButton = () => {
         (count >= 10) ? setCount(10) : setCount(count + 1);
     };
     const decrement = () => {
-        (count <= 0) ? setCount(0) : setCount(count - 1)
+        (count <= 0) ? setCount(0) : setCount(count - 1);
     };
 
     return (
