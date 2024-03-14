@@ -37,3 +37,4 @@ export default IncrementButton;
 if (document.getElementById('increment')) {
     createRoot(document.getElementById('increment')).render(<IncrementButton />)
 }
+
